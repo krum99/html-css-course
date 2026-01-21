@@ -93,3 +93,25 @@ li:nth-child(odd) {
 article p:last-child { /* applies if only p is last child of article*/
   color: green;
 }
+
+
+/* Styling links */
+a:link {
+  color: #54f020;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #54f020;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
