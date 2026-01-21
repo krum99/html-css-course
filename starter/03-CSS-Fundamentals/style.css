@@ -73,3 +73,23 @@ aside {
   background-color: #ed5317;
   border: 5px solid blue;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-weight: bold;
+}
+
+li:nth-child(2) {
+  font-weight: bold;
+}
+
+li:nth-child(odd) {
+  color: red;;
+}
+
+article p:last-child { /* applies if only p is last child of article*/
+  color: green;
+}
