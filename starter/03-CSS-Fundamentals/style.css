@@ -1,3 +1,11 @@
+* {  /* universal selector */
+  /* color: red; */
+}
+
+body {
+  color: red;
+}
+
 h1, h2, h3, h4, p, li {
   font-family: sans-serif;
 }
@@ -118,7 +126,7 @@ a:active {
 
 /* Resolvinng conflicts */
 
-#copyright {
+/* #copyright {
   color: red;
 }
 
@@ -132,4 +140,13 @@ a:active {
 
 footer p {
   color: green !important;
+} */
+
+
+/* nav a:link, nav p {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
 }
