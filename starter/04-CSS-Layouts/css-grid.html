@@ -49,10 +49,15 @@
 
       /* CSS GRID */
       display: grid;
-      grid-template-columns: 200px 200px 100px 100px;
-      grid-template-rows: 300px 200px;
-      row-gap: 50px;
-      column-gap: 100px;
+      /* grid-template-columns: 200px 200px 1fr 1fr; */
+      /* grid-template-columns: 1fr 1fr 1fr auto; */
+      grid-template-columns: repeat(4, 1fr);
+
+      /* grid-template-rows: 300px 200px; */
+      grid-template-rows: 1fr auto;
+
+      row-gap: 40px;
+      column-gap: 10px;
     }
 
     .container--2 {
